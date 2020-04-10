@@ -1,0 +1,144 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page4006383.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^weddingseason$ page4006383.html [NC]
+RewriteRule ^weddingseason/$ page4006383.html [NC]
+
+RewriteRule ^kolca$ page4082622.html [NC]
+RewriteRule ^kolca/$ page4082622.html [NC]
+
+RewriteRule ^weddingsalon$ page4082695.html [NC]
+RewriteRule ^weddingsalon/$ page4082695.html [NC]
+
+RewriteRule ^cafe$ page4082769.html [NC]
+RewriteRule ^cafe/$ page4082769.html [NC]
+
+RewriteRule ^dekor$ page4122685.html [NC]
+RewriteRule ^dekor/$ page4122685.html [NC]
+
+RewriteRule ^salon$ page4122722.html [NC]
+RewriteRule ^salon/$ page4122722.html [NC]
+
+RewriteRule ^putishestvie$ page6415242.html [NC]
+RewriteRule ^putishestvie/$ page6415242.html [NC]
+
+RewriteRule ^podarki$ page6415871.html [NC]
+RewriteRule ^podarki/$ page6415871.html [NC]
+
+RewriteRule ^butiklevante$ page4126333.html [NC]
+RewriteRule ^butiklevante/$ page4126333.html [NC]
+
+RewriteRule ^905$ page4138852.html [NC]
+RewriteRule ^905/$ page4138852.html [NC]
+
+RewriteRule ^suvenirnayalavka$ page6297848.html [NC]
+RewriteRule ^suvenirnayalavka/$ page6297848.html [NC]
+
+RewriteRule ^oniks$ page6302968.html [NC]
+RewriteRule ^oniks/$ page6302968.html [NC]
+
+RewriteRule ^atlant$ page6303086.html [NC]
+RewriteRule ^atlant/$ page6303086.html [NC]
+
+RewriteRule ^saleshop$ page6303955.html [NC]
+RewriteRule ^saleshop/$ page6303955.html [NC]
+
+RewriteRule ^danshoes$ page6363894.html [NC]
+RewriteRule ^danshoes/$ page6363894.html [NC]
+
+RewriteRule ^spokusa$ page6369953.html [NC]
+RewriteRule ^spokusa/$ page6369953.html [NC]
+
+RewriteRule ^palermo$ page6370538.html [NC]
+RewriteRule ^palermo/$ page6370538.html [NC]
+
+RewriteRule ^shaslychnydvor$ page6370859.html [NC]
+RewriteRule ^shaslychnydvor/$ page6370859.html [NC]
+
+RewriteRule ^ultra$ page6371104.html [NC]
+RewriteRule ^ultra/$ page6371104.html [NC]
+
+RewriteRule ^barell$ page6371533.html [NC]
+RewriteRule ^barell/$ page6371533.html [NC]
+
+RewriteRule ^slavniygorod$ page6372057.html [NC]
+RewriteRule ^slavniygorod/$ page6372057.html [NC]
+
+RewriteRule ^jasmin$ page6394359.html [NC]
+RewriteRule ^jasmin/$ page6394359.html [NC]
+
+RewriteRule ^vsepuchkom$ page6394789.html [NC]
+RewriteRule ^vsepuchkom/$ page6394789.html [NC]
+
+RewriteRule ^artloftcad$ page6402023.html [NC]
+RewriteRule ^artloftcad/$ page6402023.html [NC]
+
+RewriteRule ^zapyataya$ page6405364.html [NC]
+RewriteRule ^zapyataya/$ page6405364.html [NC]
+
+RewriteRule ^care$ page6406465.html [NC]
+RewriteRule ^care/$ page6406465.html [NC]
+
+RewriteRule ^vizag$ page6407064.html [NC]
+RewriteRule ^vizag/$ page6407064.html [NC]
+
+RewriteRule ^foto$ page6407376.html [NC]
+RewriteRule ^foto/$ page6407376.html [NC]
+
+RewriteRule ^tort$ page6409069.html [NC]
+RewriteRule ^tort/$ page6409069.html [NC]
+
+RewriteRule ^valencia$ page6409524.html [NC]
+RewriteRule ^valencia/$ page6409524.html [NC]
+
+RewriteRule ^istochnik$ page6409708.html [NC]
+RewriteRule ^istochnik/$ page6409708.html [NC]
+
+RewriteRule ^sherwood$ page6414987.html [NC]
+RewriteRule ^sherwood/$ page6414987.html [NC]
+
+RewriteRule ^man$ page6415576.html [NC]
+RewriteRule ^man/$ page6415576.html [NC]
+
+RewriteRule ^keramaexpert$ page6416488.html [NC]
+RewriteRule ^keramaexpert/$ page6416488.html [NC]
+
+RewriteRule ^ipopo$ page6417882.html [NC]
+RewriteRule ^ipopo/$ page6417882.html [NC]
+
+RewriteRule ^tisida$ page6418187.html [NC]
+RewriteRule ^tisida/$ page6418187.html [NC]
+
+RewriteRule ^mix$ page6418458.html [NC]
+RewriteRule ^mix/$ page6418458.html [NC]
+
+RewriteRule ^mirknigi$ page6418674.html [NC]
+RewriteRule ^mirknigi/$ page6418674.html [NC]
+
+RewriteRule ^mebellux$ page6418871.html [NC]
+RewriteRule ^mebellux/$ page6418871.html [NC]
+
+RewriteRule ^allur$ page6419262.html [NC]
+RewriteRule ^allur/$ page6419262.html [NC]
+
+RewriteRule ^goldenring$ page6597936.html [NC]
+RewriteRule ^goldenring/$ page6597936.html [NC]
+
+RewriteRule ^prokat$ page7108758.html [NC]
+RewriteRule ^prokat/$ page7108758.html [NC]
+
+RewriteRule ^svadperevozki$ page7109877.html [NC]
+RewriteRule ^svadperevozki/$ page7109877.html [NC]
+
+RewriteRule ^grand_holl$ page8694617.html [NC]
+RewriteRule ^grand_holl/$ page8694617.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild6264-6235-4764-a537-333934373839/Smitten-State-Rings.ico [R=302,L]
+

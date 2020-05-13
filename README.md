@@ -1,5 +1,5 @@
 # Autodeploy
 
-Проект автоматически обновляется на hosting.tech.a22.biz, при любом коммите в master-ветку этого репозитория
+Проект автоматически обновляется на hosting, при любом коммите в master-ветку этого репозитория
 
-[![Deploy Status](https://github.com/nikosid/weddingseason6262comua/workflows/CD/badge.svg)](https://github.com/nikosid/weddingseason6262comua/actions)
+[![Deploy Status](https://github.com/citysites/weddingseason.6262.com.ua/workflows/CD/badge.svg)](https://github.com/citysites/weddingseason.6262.com.ua/actions)

@@ -17,12 +17,13 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy To Server
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.PROD_HOST }}
-          username: ${{ secrets.PROD_USERNAME }}
-          key: ${{ secrets.PROD_KEY }}
-          script: |
-            cd www
-            git pull
+      - uses: actions/checkout@v2
+      - name: Deploy to Server
+        uses: easingthemes/ssh-deploy@v2.1.1
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.PROD_KEY }}
+#          ARGS: "-rltgoDzvO --delete"
+#          SOURCE: "dist/"
+          REMOTE_HOST: ${{ secrets.PROD_HOST }}
+          REMOTE_USER: ${{ secrets.PROD_USERNAME }}
+          TARGET: "www/"

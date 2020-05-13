@@ -23,7 +23,7 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{ secrets.PROD_KEY }}
 #          ARGS: "-rltgoDzvO --delete"
-          SOURCE: ""
+          SOURCE: "public/"
           REMOTE_HOST: ${{ secrets.PROD_HOST }}
           REMOTE_USER: ${{ secrets.PROD_USERNAME }}
           TARGET: "www/"
